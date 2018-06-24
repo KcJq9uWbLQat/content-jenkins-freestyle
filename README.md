@@ -3,5 +3,6 @@
 JDK
 ## Smoke Tests
 One invocation
-## My Rectangle Java Code 3
+## Examples
+java -jar rectangle.jar 2 3
 ## My Rectangle Java Code 4
