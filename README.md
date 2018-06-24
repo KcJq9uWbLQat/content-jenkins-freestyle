@@ -1,4 +1,4 @@
-# content-jenkins-freestyle
+# Scripted Pipeline Variant
 ## Build Requirements
 JDK
 ## Smoke Tests
