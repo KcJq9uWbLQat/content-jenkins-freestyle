@@ -13,6 +13,6 @@ node {
   } catch (e){
     throw e
   } finally {
-    archiveArtifacts artifacts: rectangle.jar, fingerprint: true
+    archiveArtifacts artifacts: 'rectangle.jar', fingerprint: true
   }
 }
