@@ -1,4 +1,6 @@
-# Rectangulator Scripted Pipeline Variant
+# Rectangulator 
+## Build Process
+Scripted Pipeline Variant
 ## Build Requirements
 JDK
 ## Smoke Tests
