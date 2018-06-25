@@ -3,7 +3,7 @@ node {
   try {
     stage('Build') {
       echo "Buiding project ${JOB_NAME} with number ${BUILD_NUMBER}"
-      input 'Continue'?
+      input 'Continue?'
       sh 'javac -d . src/*java'
       sh "echo 'Main-Class: Rectangulator' > MANIFEST.MF"
       sh 'jar -cmf MANIFEST.MF rectangle.jar *.class'
